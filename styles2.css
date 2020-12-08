@@ -1,0 +1,275 @@
+@charset "utf-8";
+body{
+	font-family: Arial, Helvatica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+
+/*global*/
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+u1 {
+	margin: 0;
+	padding: 0;
+}
+
+.buttonOne{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+
+.dark {
+	padding: 15px;
+	background-color: #35424A;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*header*/
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom: #e8491d 3px solid;	
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/*showcase*/
+#showcase {
+	min-height: 450px;
+	background:url(https://static.wikia.nocookie.net/familyguyfanon/images/1/19/Peter_Flying_the_Petercopter.png/revision/latest?cb=20181214033620) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* showcase */
+#showcase h1 {
+	font-size: 40px;
+	color: rgba(225,225,225,1.00);
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1.00);
+	margin-top: 252px;
+}
+
+#showcase p {
+	font-size: 22px;
+	text-align: center;
+	color: rgba(225,225,225,1.00);
+	text-shadow: 2px 2px 2px rgba(0,0,0,1.00);
+	margin-top: 11px;
+}
+
+
+/*#showcase .container h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+	text-align:center;
+    text-shadow: 7px 3px #000000;
+	margin-top:100px;
+}
+	
+#showcase .container p {
+    color: #FFFFFF;
+    font-size: 20px;
+	text-align:center;
+    text-shadow: 4px 3px #000000;
+	margin-top:11px;
+}*/
+
+/*newsletter starts here*/
+#newsletter {
+	padding: 15px;
+	color: #fff;
+	background: #35424a;	
+}
+
+#newsletter h1 {
+	float: left;
+}
+
+#newsletter form {
+	float: right;	
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*ID boxes*/
+#boxes {
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box img {
+	width: 90px;	
+}
+
+/*sidebar*/
+aside#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width: 90%;
+	padding: 5px;
+}
+
+/*main-col*/
+article#main-col {
+	float: left;
+	width: 65%;
+}
+
+/*services*/
+ul#services li {
+	list-style-type: none;
+	padding: 20px;
+	border: #ccc solid 1px;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+}
+
+/*footer*/
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+
+/*media queries */
+@media(max-width: 768px) {
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#boxes .box{
+		float: none;
+		text-align:center;
+		width:100%;
+	}
+	
+	header {
+		padding-bottom: 20px;		
+	}
+	
+	#showcase h1{
+		margin-top:40px;
+	}
+	
+	#newsletter button, .quote button{
+		display:block;
+		width:100%;
+	}
+	#newsletter forlllllllm input[type="email"],
+	.quote input,
+	.quote textarea{
+		width:100%;
+		margin-bottom:5px;	
+	}
+	article#main-col {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	aside#sidebar{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
